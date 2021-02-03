@@ -1,5 +1,3 @@
-# 开发文档
-
 ## Direction
 
 ### 方法：
@@ -40,3 +38,34 @@
 
 返回朝向西北方的方向
 
+#### def all_directions():
+
+返回一个list\[\]，包含所有方向
+
+#### def cardinal_directions():
+
+返回一个list\[\]，包含东南西北四个方向
+
+#### def getdx(self):
+
+返回方向在x轴上面的偏移量
+
+#### def getdy(self):
+
+返回方向在y轴上面的偏移量
+
+#### def opposite(self):
+
+返回方向的反方向
+
+#### def rotate_left(self):
+
+返回方向向左偏移45度的方向
+
+#### def rotate_right(self):
+
+返回方向向右偏移45度的方向
+
+#### def equals(self, dir):
+
+返回True或False，表明两个方向是否相等
